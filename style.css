@@ -1,0 +1,160 @@
+body{
+    overflow: hidden;
+    background-color: #FFF5EC;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+/*utama*/
+.main{
+    text-align: center;
+    margin: 31%
+}
+.notice {
+        background-color: #e9a758;
+        width: 45% ;
+        height: 60px;
+        box-shadow: 0 8px 7px 0 rgba(0, 0, 0, 0.4);
+        border-radius: 40px;
+        font-size: 30px;
+    }
+.notice:hover{
+    background-color: #b87421;
+    box-shadow: 0 6px 12px 0 rgba(160, 118, 27, 0.5);   
+} 
+ .btn{
+    background-color: #e9a758;
+    width: 45% ;
+    height: 60px;
+    box-shadow: 0 8px 7px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+    font-size: 30px;
+}
+.btn:hover {
+    background-color: #b87421;
+    box-shadow: 0 6px 12px 0 rgba(160, 118, 27, 0.5);   
+}
+.container {
+    width: 94,1%;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 20px solid rgb(185, 136, 57);
+    text-align: center;
+}
+.container input{
+    width: 40%;
+    font-size: 30px;
+    box-shadow: 10px 7px;
+    border-radius: 50px;
+    background-color: #FFF5EC;
+}
+/*Navbar*/
+
+nav p{
+    color: black;
+    display: inline-block;
+
+}
+nav {
+    margin: auto;
+    text-align: left;
+    padding: 0px 10px 20px 0px;
+    font-family: arial;
+    background-color: #623b0c;
+} 
+nav a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+nav button {
+    margin-left: 5px;
+}
+.container-top {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #b87421;
+    height: 30px;
+    width: 8%;
+    margin-left: 35.2%;
+    box-shadow: 0px 0px 0 5px;    
+}
+/*soal*/
+.nes-btn{
+    padding: 15px 60px;
+    margin-top: 20px;
+    background-color: #e9a758;
+    box-shadow: 0 8px 7px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+    font-size: 25px;
+}
+.nes-btn:hover{
+    background-color: #c88e47;
+    box-shadow: 0px 8px 7px 0 rgba(0, 0, 0, 0); 
+}
+.btn-link {
+    background-color: #da851c;
+    width: 10%;
+    height: 40px;
+    font-size: 15px;
+    box-shadow: 1px 8px 7px 0 rgba(1, 0, 0, 0.4);
+}
+.btn-link:hover{
+    background-color: #a66515;
+    box-shadow: 0px 8px 7px 0 rgba(0, 0, 0, 0);
+}
+/*notif*/
+.panelnotif{
+    border-radius: 10px;
+    margin-top: -440px;
+    padding: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 1px 1px 20px;
+    background-color: #c88e47;
+    visibility: hidden;
+    font-size: 30px;
+}
+#notif:target .panelnotif {
+    transition: 0.56s;
+    transform: translateY(50px);
+    position: relative;
+    visibility: visible;
+}
+.button:hover {
+    background-color: #baac9a;
+    box-shadow: 0px 8px 7px 0 rgba(0, 0, 0, 0);  
+}
+/* score */
+.info {
+    background-color: #b87421;
+    box-shadow: 0px 0px 0 5px;   
+    text-align: left;
+    width: 140px;
+    margin-top: 10px;
+}
+.back {
+   width: 150px;
+    height: 60px;
+    box-shadow: 0 8px 7px 0 rgba(0, 0, 0, 0.4);
+}
+.back:hover {
+    background-color: #b87421;
+    box-shadow: 0 6px 12px 0 rgba(160, 118, 27, 0.5);   
+}
+
+.score-akhir {
+    text-align: center;
+    margin-left: 43%;
+    background-color: #b87421;
+    box-shadow: 0px 0px 0 5px;   
+    width: 170px;
+    margin-top: 300px;
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+}
+
+
+

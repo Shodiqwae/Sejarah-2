@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Nag+Mundari:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="soal" id="control" style="display: block;">
+        <nav>
+            <b><a href="index.html"><input type="button" class="btn-link" value="halaman Utama" style="font-family: 'Noto Sans Nag Mundari', sans-serif;"></a></b>
+                       <p class="container-top" style="text-align: center; font-family: 'Noto Sans Nag Mundari', sans-serif; font-size: 23px;" id="countdown">-</p> 
+        </nav>
+    </div>
+    
+    <div class="container" id="coy" style="display: block;"> 
+        <div class="info" style="float: left;">
+            <a style="font-family: 'Noto Sans Nag Mundari', sans-serif; font-size: 30px; ">Score:<a  id="score" style="font-family: 'Noto Sans Nag Mundari', sans-serif; font-size: 30px;"> 0</a></a>
+        </div>
+        <div class="img"><img id="img" style="width: 43%; text-align: center; margin-top: 10px; margin-right: 160px;" src="Image/1.jpg"></div>
+                <div class="answer">
+                    <input id="input" type="text"><br>
+                    <a href="#notif"><button id="cek" class="nes-btn" onclick="jawaban()">Jawab</button></a>
+                </div>
+
+                    <div class="notif" id="notif">
+                        <div class="bg-color">
+                            <div class="panelnotif" style="font-family: 'Noto Sans Nag Mundari', sans-serif;">
+                                <p class="result" id="result"></p>
+                                <a href="#soal"><input id="Oke" type="button" class="button" onclick="Confirm()" value="Oke"></a>
+                                                        
+                            </div>
+                        </div>
+                    </div>   
+                </div>    
+            </div>  
+            <div id="result-page" style="display: none">
+            <img src="Image/end.png" style="position: fixed; z-index: -1; margin-top: -50px;" width="100%">
+        <a href="index.html" ><input class="back" type="button" style="color: black; background-color: #b87421; font-size: 20px; font-family: 'Noto Sans Nag Mundari', sans-serif;" value="Kembali"></a>
+        <a href="Image/iyoo.jpg" ><input id="iyo" class="back" type="button"  style="color: black; background-color: #b82121; font-size: 20px; font-family: 'Noto Sans Nag Mundari', sans-serif;" value="ENDINGG!!! "></a>
+
+    <div class="score-akhir">
+    <p class="finish-score" style="font-size: 30px;">Your Score:<p class="score" style="font-size: 35px; "><i class="nes-icon trophy is-large"></i> <span id="final-score"></span></p></p>
+    </div>
+</div>
+
+
+
+   
+    <script src="style.js"></script>
+</body>
+</html>
